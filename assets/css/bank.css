@@ -1,0 +1,262 @@
+header .top .container .row .logo-business {
+  margin: 20px;
+}
+header .top .container .row .logo-business .business ul {
+  display: flex;
+  align-items: flex-end;
+}
+header .top .container .row .logo-business .business ul li {
+  margin-left: 20px;
+  list-style: none;
+}
+header .top .container .row .logo-business .business ul li a {
+  color: black;
+  text-decoration: none;
+}
+header .bottum {
+  padding: 30px;
+  background-color: rgb(232, 236, 241);
+}
+header .bottum .container .row .list-button {
+  display: flex;
+  justify-content: space-between;
+}
+header .bottum .container .row .list-button .list {
+  display: flex;
+}
+header .bottum .container .row .list-button .list ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .bottum .container .row .list-button .list ul li {
+  font-size: 13px;
+  margin-left: 20px;
+  list-style: none;
+}
+header .bottum .container .row .list-button .list ul li a {
+  height: 100vh;
+  color: rgb(164, 164, 164);
+  text-decoration: none;
+}
+header .bottum .container .row .list-button .list ul li a:hover {
+  border-bottom: 3px solid;
+  border-color: red;
+}
+header .bottum .container .row .list-button .button {
+  display: flex;
+  justify-content: end;
+}
+
+#Popular .container .row {
+  margin-bottom: 30px;
+}
+#Popular .container .row .buttoms {
+  margin-top: 30px;
+}
+#Popular .container .row .buttoms :first-child {
+  background-color: #f45369;
+  color: #fff;
+}
+#Popular .container .row .buttoms a {
+  background-color: rgb(241, 234, 234);
+  padding: 6px 24px 8px;
+  border-radius: 37px;
+  color: black;
+  text-decoration: none;
+}
+#Popular .container .card {
+  border-radius: 20px;
+  background-color: rgb(249, 250, 251);
+}
+#Popular .container .card .Card-info {
+  justify-content: space-around;
+  padding: 60px;
+}
+#Popular .container .card .Card-info .images {
+  display: flex;
+  align-items: center;
+}
+#Popular .container .card .Card-info .images img {
+  width: 350px;
+  height: 60px;
+}
+#Popular .container .card .Card-info .text ul {
+  display: flex;
+}
+#Popular .container .card .Card-info .text ul li {
+  padding-right: 60px;
+  list-style: none;
+}
+#Popular .container .card .Card-info .text ul li p {
+  display: flex;
+  text-align: start;
+}
+#Popular .container .card .Card-info .text .button {
+  display: flex;
+  align-items: center;
+}
+#Popular .container .card .Card-info .text .button button {
+  width: 300px;
+  height: 60px;
+  font-size: 25px;
+}
+#Popular .container .card .Card-info .text .button span {
+  padding-left: 40px;
+}
+#Popular .container .card .Card-info .text .button span a {
+  text-decoration: none;
+  color: black;
+}
+#Popular .container .row .cardss {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  height: calc(100% - 30px);
+  display: flex;
+  flex-direction: column;
+}
+#Popular .container .row .cardss::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 20%;
+  background: #f9fafb;
+  border-radius: 15px;
+  z-index: -1;
+}
+#Popular .container .row .cardss img {
+  padding-left: 40px;
+  padding-top: -120px;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+}
+#Popular .container .row .cardss .text-button .text {
+  padding-left: 40px;
+}
+#Popular .container .row .cardss .text-button .card-button {
+  display: flex;
+  align-items: center;
+  width: 100;
+  height: 60px;
+  border-top: 1px solid;
+  border-color: rgb(224, 224, 224);
+}
+#Popular .container .row .cardss .text-button .card-button a {
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+  height: 50px;
+  padding: 10px;
+}
+#Popular .container .row .cardss .text-button .card-button a:hover {
+  background-color: red;
+  color: white;
+}
+#Popular .container .row .cardss .text-button .card-button span {
+  display: flex;
+  align-items: center;
+  width: 380px;
+  height: 50px;
+  padding-left: 20px;
+  border-left: 1px solid;
+  border-color: rgb(224, 224, 224);
+}
+#Popular .container .row .cardss .text-button .card-button span:hover {
+  background-color: red;
+  color: white;
+}
+#Popular .container .row p {
+  font-size: 13px;
+  text-align: center;
+}
+
+.sections-footer {
+  height: 100px;
+  background-color: rgb(241, 234, 234);
+}
+.sections-footer .container ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 0px;
+}
+.sections-footer .container ul li {
+  margin-top: 40px;
+}
+.sections-footer .container ul li #red {
+  color: red;
+}
+.sections-footer .container ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  height: 100vh;
+  background-color: rgb(46, 49, 49);
+}
+footer .row .col {
+  margin-top: 40px;
+}
+footer .row .col .footer-item h6 {
+  color: white;
+  padding-left: 30px;
+}
+footer .row .col .footer-item ul li {
+  list-style: none;
+  line-height: 40px;
+}
+footer .row .col .footer-item ul li a {
+  color: white;
+  text-decoration: none;
+}
+footer .row .col .QR-Download h3 {
+  text-align: center;
+  font-size: 16px;
+  color: white;
+}
+footer .row .col .QR-Download #img {
+  padding-left: 55px;
+}
+footer .icon {
+  margin-top: 200px;
+}
+footer .icon ul {
+  display: flex;
+}
+footer .icon ul li {
+  font-size: 30px;
+  list-style: none;
+  padding-right: 30px;
+}
+footer .icon ul li a {
+  color: white;
+}
+footer .icon ul li .fa {
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 10px;
+  color: rgb(201, 9, 9);
+}
+footer .icon ul li .fa span {
+  color: white;
+}
+footer .row .p-img {
+  display: flex;
+  margin-top: 30px;
+}
+footer .row .p-img .p {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+footer .row .p-img .img img {
+  height: 40px;
+  padding-left: 40px;
+}/*# sourceMappingURL=bank.css.map */
